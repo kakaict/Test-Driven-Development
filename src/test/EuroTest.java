@@ -16,8 +16,8 @@ public class EuroTest {
 	
 	@Test
 	public void testEuroObjectToString(){
-		assertEquals("EURO 2,50", new Euro(2.5).toString());
-		assertEquals("EURO 2,00", new Euro(2).toString());
+		assertEquals("2,50 EURO", new Euro(2.5).toString());
+		assertEquals("2,00 EURO", new Euro(2).toString());
 	}
 	
 	@Test
