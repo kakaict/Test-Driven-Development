@@ -27,7 +27,7 @@ public class Euro {
 	
 	@Override
 	public String toString(){
-		return String.format("EURO %.2f", amount) ;
+		return String.format("%.2f EURO", amount) ;
 	}
 	
 	@Override
