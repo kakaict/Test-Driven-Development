@@ -12,6 +12,8 @@ public class EuroTest {
 	 * An example of TDD - Test driven development
 	 * Create a test, run test => fail => add code => re-run => green test
 	 * do this process many time and make code better than before
+	 * 
+	 * @QuangKhai added
 	 */
 	
 	@Test (expected = IllegalArgumentException.class)
