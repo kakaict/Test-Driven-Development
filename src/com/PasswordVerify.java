@@ -1,9 +1,9 @@
 package com;
 
 public class PasswordVerify {
-
+	
+	
 	public static boolean verify(String password) {
-		
 		checkNullValue(password);
 		// need a check method for empty string 
 		checkEmptyValue(password);
