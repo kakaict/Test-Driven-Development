@@ -2,6 +2,8 @@ package com;
 
 public class Euro {
 	
+	//quangkhai added
+	
 	//kakaict added
 	
 	private double  amount;
