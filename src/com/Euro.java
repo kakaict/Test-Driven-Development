@@ -5,6 +5,7 @@ public class Euro {
 	//quangkhai added
 	
 	//kakaict added
+	//kakaict added 2
 	
 	private double  amount;
 	
