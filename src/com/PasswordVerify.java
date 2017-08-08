@@ -5,6 +5,8 @@ public class PasswordVerify {
 	public static boolean verify(String password) {
 		
 		checkNullValue(password);
+		// need a check method for empty string 
+		checkEmptyValue(password);
 		return verifyPasswordHasMore8Character(password)
 				&& verifyPasswordHasUpperCaseCharacter(password) 
 				&& verifyPasswordHasLowcaseCharacter(password)
@@ -32,6 +34,11 @@ public class PasswordVerify {
 
 	private static void checkNullValue(String password) {
 		if (password == null)
+			throw new IllegalArgumentException();
+	}
+	
+	private static void checkEmptyValue(String password){
+		if (password.isEmpty()) 
 			throw new IllegalArgumentException();
 	}
 

@@ -10,7 +10,7 @@ public class EuroTest {
 	
 	/*
 	 * An example of TDD - Test driven development
-	 * 
+	 * Create a test, run test => fail => add code => re-run => green test
 	 */
 	
 	@Test (expected = IllegalArgumentException.class)
