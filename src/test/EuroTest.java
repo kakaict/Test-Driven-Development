@@ -8,6 +8,11 @@ import com.Euro;
 
 public class EuroTest {
 	
+	/*
+	 * An example of TDD - Test driven development
+	 * 
+	 */
+	
 	@Test (expected = IllegalArgumentException.class)
 	public void throwExceptionIfNegativeNumber(){
         Double negativeAmount = 0d - Math.random() * Double.MAX_VALUE;
