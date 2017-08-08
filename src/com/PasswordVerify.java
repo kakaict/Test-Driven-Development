@@ -2,6 +2,7 @@ package com;
 
 public class PasswordVerify {
 	
+	//kakaict added
 	
 	public static boolean verify(String password) {
 		checkNullValue(password);

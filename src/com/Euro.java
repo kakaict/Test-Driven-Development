@@ -4,6 +4,8 @@ public class Euro {
 	
 	//quangkhai added
 	
+	//kakaict added
+	
 	private double  amount;
 	
 	private static final int CENTS_PER_EURO = 100;
