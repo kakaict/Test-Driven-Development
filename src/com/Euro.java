@@ -1,7 +1,7 @@
 package com;
 
 public class Euro {
-	
+
 	private double  amount;
 	
 	private static final int CENTS_PER_EURO = 100;
