@@ -2,11 +2,6 @@ package com;
 
 public class Euro {
 	
-	//quangkhai added
-	
-	//kakaict added
-	//kakaict added 2
-	
 	private double  amount;
 	
 	private static final int CENTS_PER_EURO = 100;
