@@ -2,8 +2,6 @@ package com;
 
 public class Euro {
 
-	//kakaict added
-	
 	private double  amount;
 	
 	private static final int CENTS_PER_EURO = 100;
